@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+/* section hero */
+
+@media screen and (min-width: 768px) {
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  .hero {
+    height: 436px;
+    max-width: 768px;
+  }
+
+  .hero.section {
+    padding: 112px 0;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .main-title {
+    margin-bottom: 48px;
+  }
+  .hero {
+    height: 600px;
+    max-width: 1440px;
+  }
+
+  .hero.section {
+    padding: 188px 0;
+  }
+}
+
+/* section value */
+
+@media screen and (min-width: 768px) {
+  .values .item {
+    width: calc((100% - 72px) / 2);
+  }
+  .values {
+    display: flex;
+  }
+  .title {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .icon-box {
+    display: flex;
+  }
+  .values .item {
+    width: calc((100% - 72px) / 4);
+  }
+  .values {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+  }
+  .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .text-value {
+    font-weight: 400;
+  }
+}
+
+/* what are we doing section */
+@media screen and (min-width: 1158px) {
+  .section.no-padding {
+    display: flex;
+  }
+}
