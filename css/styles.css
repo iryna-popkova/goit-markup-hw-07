@@ -458,7 +458,9 @@ img {
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 72px;
   margin: 0;
   padding: 0;
 }
@@ -479,7 +481,7 @@ img {
 
 .customer-item {
   height: 88px;
-  width: 168px;
+  width: calc((100% - 16px) / 2);
 }
 
 .customer-ref {

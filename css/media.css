@@ -54,7 +54,8 @@
   }
   .values {
     display: flex;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
   .title {
     text-align: left;
@@ -101,7 +102,8 @@
   }
   .team-list {
     display: flex;
-    gap: 24px;
+    row-gap: 64px;
+    column-gap: 24px;
   }
 }
 
@@ -116,5 +118,33 @@
   }
   .team-card {
     width: calc((100% - 72px) / 4);
+  }
+}
+
+/* customers section */
+
+@media screen and (min-width: 768px) {
+  .customer-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .team-list {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  .container.customers {
+    max-width: 584px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container.container.customers {
+    max-width: 1158px;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
   }
 }
