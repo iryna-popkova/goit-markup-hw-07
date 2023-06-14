@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
   }
 }
 
@@ -50,10 +50,11 @@
 
 @media screen and (min-width: 768px) {
   .values .item {
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 24px) / 2);
   }
   .values {
     display: flex;
+    gap: 24px;
   }
   .title {
     text-align: left;
@@ -69,8 +70,6 @@
   }
   .values {
     display: flex;
-    padding: 0;
-    margin: 0;
     gap: 24px;
   }
   .title {
@@ -88,5 +87,34 @@
 @media screen and (min-width: 1158px) {
   .section.no-padding {
     display: flex;
+  }
+}
+
+/* team-section */
+
+@media screen and (min-width: 768px) {
+  .container.team {
+    max-width: 584px;
+  }
+  .team-card {
+    width: calc((100% - 24px) / 2);
+  }
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container.team {
+    max-width: 1158px;
+  }
+
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+  .team-card {
+    width: calc((100% - 72px) / 4);
   }
 }
