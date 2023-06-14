@@ -148,3 +148,20 @@
     gap: 24px;
   }
 }
+
+/* footer-section */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
+  .footer {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+}
