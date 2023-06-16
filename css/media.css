@@ -82,6 +82,15 @@
     display: none;
   }
 }
+@media screen and (max-width: 427px) {
+  .item-phone {
+    font-size: 24px;
+  }
+  .mobile-menu-social-list {
+    justify-content: space-between;
+    gap: 0;
+  }
+}
 
 /* section hero */
 
