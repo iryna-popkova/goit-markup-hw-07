@@ -198,10 +198,22 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office1.jpg);
+    url(../images/people-office-mobile.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mobile-2x.jpg);
+  }
 }
 
 .hero.section {
