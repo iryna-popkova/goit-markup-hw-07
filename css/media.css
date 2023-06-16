@@ -304,3 +304,14 @@
 }
 
 /* modal window */
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    height: auto;
+  }
+}
+/*  
+@media screen and (min-width: 1158px) {
+}
+*/
