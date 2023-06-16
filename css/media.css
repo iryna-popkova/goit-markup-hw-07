@@ -72,6 +72,17 @@
   }
 }
 
+/* mobile menu */
+
+@media screen and (min-width: 768px) {
+  .button-menu-open {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
+
 /* section hero */
 
 @media screen and (min-width: 768px) {
@@ -309,6 +320,7 @@
   .modal {
     width: 408px;
     height: auto;
+    max-width: 408px;
   }
 }
 /*  
