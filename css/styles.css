@@ -172,6 +172,12 @@ img {
   align-items: center;
 }
 
+/* hamburger menu */
+
+.icon-hamburger {
+  stroke: #2e2f42;
+}
+
 /* hero */
 .main-title {
   color: var(--standart-color);
