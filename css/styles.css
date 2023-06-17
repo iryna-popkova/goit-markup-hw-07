@@ -207,6 +207,10 @@ img {
   transition: transform 250ms ease-in-out;
 }
 
+.link-mobile-menu.current {
+  color: var(--focus-color);
+}
+
 .mobile-menu.is-hidden {
   transform: translateX(0);
 }
