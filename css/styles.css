@@ -28,6 +28,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding-top: 25.5px;
+  padding-bottom: 23.5px;
 }
 .accent {
   color: var(--title-text-color);
@@ -157,7 +159,6 @@ img {
 .header-container {
   display: flex;
   max-width: 428px;
-  height: 70px;
   justify-content: center;
 }
 
@@ -681,6 +682,7 @@ img {
 
 .footer {
   display: block;
+  max-width: 396px;
 }
 
 .footer-first {
@@ -899,6 +901,7 @@ img {
 .portfolio-image {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .overlay-text {
