@@ -160,6 +160,7 @@ img {
   display: flex;
   max-width: 428px;
   justify-content: center;
+  align-items: center;
 }
 
 .page-header {
@@ -192,6 +193,7 @@ img {
   background: transparent;
 }
 .menu-container {
+  position: relative;
   max-width: 428px;
   margin-left: auto;
   margin-right: auto;
@@ -209,7 +211,7 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: var(--standart-color);
-  padding: 80px 35px 40px 40px;
+  padding: 24px 24px 40px 40px;
   overflow: auto;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
@@ -224,6 +226,9 @@ img {
 }
 
 .button-menu-close {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -250,13 +255,17 @@ img {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  padding-left: 0;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.mobile-menu-list-item {
   color: #4d5ae5;
-  font-style: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02rem;
-  padding-left: 0;
-  margin: auto;
 }
 
 .mobile-menu-contacts {
@@ -265,6 +274,7 @@ img {
   gap: 40px;
   padding: 0;
   margin-bottom: 48px;
+  margin-top: 0;
 }
 
 .item-phone {
@@ -341,6 +351,7 @@ img {
 
 .hero.section {
   padding: 112px 0;
+  max-width: 1440px;
 }
 
 .button.order {
@@ -662,10 +673,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+  margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 17.5px;
-  margin-bottom: 72px;
+  margin-bottom: 0;
   text-align: left;
 }
 
@@ -689,6 +700,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 /* social media footer */
@@ -696,13 +708,13 @@ img {
 .social-media {
   padding-top: 0;
   padding-bottom: 0;
+  margin-bottom: 72px;
 }
 
 .social-list-footer {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-bottom: 72px;
   gap: 16px;
   justify-content: center;
   align-items: center;
@@ -938,7 +950,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   margin-left: auto;
   margin-right: auto;
 }
