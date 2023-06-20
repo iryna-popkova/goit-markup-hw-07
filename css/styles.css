@@ -195,13 +195,13 @@ img {
 .menu-container {
   position: relative;
   max-width: 428px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
-  height: 100%;
 }
 
 .mobile-menu {
@@ -221,10 +221,6 @@ img {
   transform: translateX(0);
 }
 
-.link-mobile-menu.current {
-  color: var(--focus-color);
-}
-
 .button-menu-close {
   position: absolute;
   top: 0;
@@ -232,13 +228,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
   width: 24px;
   height: 24px;
   background-color: #e7e9fc;
   border-radius: 50%;
   border: 1px solid #2e2f42;
-  padding: 0;
   outline: none;
   cursor: pointer;
   fill: currentColor;
@@ -256,16 +250,18 @@ img {
   flex-direction: column;
   gap: 40px;
   padding-left: 0;
-  margin: auto;
   margin-top: 32px;
 }
 
-.mobile-menu-list-item {
-  color: #4d5ae5;
+.link-mobile-menu {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02rem;
+}
+.link-mobile-menu.current {
+  color: var(--focus-color);
 }
 
 .mobile-menu-contacts {
@@ -349,9 +345,8 @@ img {
   background-repeat: no-repeat;
 }
 
-.hero.section {
+.hero .section {
   padding: 112px 0;
-  max-width: 1440px;
 }
 
 .button.order {
