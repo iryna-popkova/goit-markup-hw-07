@@ -238,12 +238,12 @@ img {
   fill: currentColor;
 }
 
-.button-menu-close:hover,
+/* .button-menu-close:hover,
 .button-menu-close:focus {
   background-color: var(--focus-color);
   fill: var(--standart-color);
   border: none;
-}
+} */
 
 .mobile-menu-list {
   display: flex;
