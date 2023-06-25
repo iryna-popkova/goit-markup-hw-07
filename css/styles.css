@@ -250,7 +250,9 @@ img {
   flex-direction: column;
   gap: 40px;
   padding-left: 0;
-  margin-top: 32px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 32px;
 }
 
 .link-mobile-menu {
@@ -274,18 +276,18 @@ img {
 }
 
 .item-phone {
-  font-style: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02rem;
   text-decoration: none;
+  color: var(--accent-color);
 }
 .item-mail {
-  font-size: medium;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.02rem;
-  text-decoration: none;
   color: #434455;
 }
 
